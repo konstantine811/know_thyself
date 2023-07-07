@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./code/main.js"></script>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" id="myForm">
+        <h1>Пізнай себе</h1>
+        <div>
+          <div>
+            <label for="userName">Ім'я</label>
+            <input
+              type="text"
+              id="userName"
+              name="userName"
+              placeholder="Введіть своє ім'я"
+            />
+          </div>
+          <div>
+            <label for="secondName">Прізвище</label>
+            <input
+              type="text"
+              name="secondName"
+              id="secondName"
+              placeholder="Введіть ваше прізвище"
+            />
+          </div>
+          <div>
+            <label for="countAudio">Кількість аудіо</label>
+            <select name="countAudio" id="countAudio">
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="30">30</option>
+              <option value="100">100</option>
+            </select>
+          </div>
+          <div>
+            <label for="textContent">Роскажіть мені про свій настрій</label>
+            <textarea
+              name="textContent"
+              id="textContent"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="btn-wrap">
+            <input type="submit" value="Відправити" />
+            <div class="preloader hide"></div>
+          </div>
+        </div>
+      </form>
+      <img src="./assets/images/leaf.png" alt="Leaf photo" />
+      <div class="text-content">
+        <h4></h4>
+        <hr />
+        <hr />
+        <p></p>
+        <hr />
+        <h4></h4>
+        <hr />
+        <hr />
+        <p></p>
+        <hr />
+        <h4></h4>
+        <hr />
+        <hr />
+        <p></p>
+        <hr />
+      </div>
+      <table class="hide" border cellspacing="10" bgcolor="#efefef">
+        <thead>
+          <tr>
+            <th>Автор</th>
+            <th>Назва пісні</th>
+            <th>Аудіо</th>
+            <th>Зображення альбому</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td>Deep Purple</td>
+            <td>Soldier Of Fortune - 2009 Digital Remaster</td>
+            <td>
+              <audio controls src="./assets/audio/Canon - No Loss.wav"></audio>
+            </td>
+            <td>
+              <img style="width: 130px" src="./assets/images/pc.webp" alt="" />
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
